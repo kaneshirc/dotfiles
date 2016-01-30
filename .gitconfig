@@ -1,0 +1,7 @@
+[alias]
+	br = branch
+	ci = commit
+	st = status
+[user]
+	email = kaneshiro@rightcode.co.jp
+	name = Naoki Kaneshiro
