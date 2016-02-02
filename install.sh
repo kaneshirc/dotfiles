@@ -11,14 +11,17 @@ bash-it enable completion git ssh
 # custom settings for bash
 ln -s ~/dotfiles/custom.aliases.bash ~/.bash_it/aliases/
 ln -s ~/dotfiles/custom.completion.bash ~/.bash_it/completion/
-ln -s ~/dotfiles/custom.plugin.bash ~/.bash_it/plugins/
+ln -s ~/dotfiles/custom.plugins.bash ~/.bash_it/plugins/
 
 # dotfiles
-DOT_FILES=(.gitconfig .gitignore .inputrc)
+. ~/dotfiles/dotfiles
 for file in ${DOT_FILES[@]}
 do
     ln -s ~/dotfiles/$file ~/$file
 done
 
-exec $SHELL -l
+source ~/.bashrc
+
+echo ""
+echo "Open a new shell/tab/terminal"
 
