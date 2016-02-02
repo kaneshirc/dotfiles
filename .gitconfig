@@ -2,6 +2,20 @@
 	br = branch
 	ci = commit
 	st = status
+	co = checkout
 [user]
 	email = kaneshiro@rightcode.co.jp
 	name = Naoki Kaneshiro
+[push]
+	default = simple
+[core]
+	autocrlf = input
+	editor = vim
+[merge]
+	tool = vimdiff
+[color]
+	status = auto
+	diff = auto
+	branch = auto
+	interactive = auto
+	grep = auto
