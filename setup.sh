@@ -6,7 +6,8 @@ ln -s ~/dotfiles/.gitconfig ~/
 
 source ~/.bash_it/bash_it.sh
 
-bash-it enable completion git ssh
+bash-it enable completion ssh
+bash-it enable completion ssh
 
 echo "" >> ~/.bashrc
 echo "source ~/dotfiles/custom.completion.bash" >> ~/.bashrc
