@@ -1,11 +1,15 @@
+[user]
+	email = kaneshiro@rightcode.co.jp
+	name = Naoki Kaneshiro
+[url "git@github.com:"]
+        insteadOf = https://github.com/
+[url "git@bitbucket.org:"]
+	insteadOf = https://bitbucket.org/
 [alias]
 	br = branch
 	ci = commit
 	st = status
 	co = checkout
-[user]
-	email = kaneshiro@rightcode.co.jp
-	name = Naoki Kaneshiro
 [push]
 	default = simple
 [core]
@@ -19,3 +23,4 @@
 	branch = auto
 	interactive = auto
 	grep = auto
+
