@@ -1,4 +1,6 @@
 $if Bash
-set completion-ignore-case on
+set completion-ignore-case on 
+set bell-style none
 $endif
+
 
