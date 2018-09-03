@@ -16,8 +16,6 @@ done
 touch ~/.bashrc.local
 echo "source \"\$HOME\"/.bashrc.local" >> ~/.bashrc
 
-source ~/.bashrc
-
 echo ""
 echo "Open a new shell/tab/terminal"
 
