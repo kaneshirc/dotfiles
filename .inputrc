@@ -1,6 +1,10 @@
-$if Bash
 set completion-ignore-case on 
 set bell-style none
-$endif
 
+$if Bash
+"\C-p": history-search-backward
+"\C-n": history-search-forward
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+$endif
 
