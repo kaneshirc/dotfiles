@@ -1,5 +1,16 @@
-set completion-ignore-case on 
 set bell-style none
+
+set expand-tilde on
+
+set editing-mode vi
+set keymap vi-insert
+
+set input-meta on
+set convert-meta off
+set output-meta on
+
+set completion-ignore-case on 
+set horizontal-scroll-mode on
 
 $if Bash
 "\C-p": history-search-backward
