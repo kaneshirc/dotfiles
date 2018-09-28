@@ -9,6 +9,8 @@ ln -s ~/dotfiles/custom.plugins.bash ~/.bash_it/plugins/
 
 # dotfiles
 . ~/dotfiles/dotfiles
+
+DOT_FILES=(.gitconfig .gitignore .inputrc)
 for file in ${DOT_FILES[@]}
 do
     ln -s ~/dotfiles/$file ~/$file
