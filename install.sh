@@ -7,9 +7,6 @@ ln -s ~/dotfiles/custom.aliases.bash ~/.bash_it/aliases/
 ln -s ~/dotfiles/custom.completion.bash ~/.bash_it/completion/
 ln -s ~/dotfiles/custom.plugins.bash ~/.bash_it/plugins/
 
-# dotfiles
-. ~/dotfiles/dotfiles
-
 DOT_FILES=(.gitconfig .gitignore .inputrc)
 for file in ${DOT_FILES[@]}
 do
