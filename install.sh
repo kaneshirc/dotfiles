@@ -7,7 +7,7 @@ ln -s ~/dotfiles/custom.aliases.bash ~/.bash_it/aliases/
 ln -s ~/dotfiles/custom.completion.bash ~/.bash_it/completion/
 ln -s ~/dotfiles/custom.plugins.bash ~/.bash_it/plugins/
 
-DOT_FILES=(.gitconfig .gitignore .tigrc .inputrc)
+DOT_FILES=(.gitconfig .gitignore .tigrc .inputrc .vimrc .ideavimrc)
 for file in ${DOT_FILES[@]}
 do
     ln -s ~/dotfiles/$file ~/$file
